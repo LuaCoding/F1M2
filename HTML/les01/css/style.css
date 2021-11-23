@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 250%;
+}
+
+article{
+    width: 60vw;
+    background-color: lightblue;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+img{
+    margin-bottom: 40px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+p{
+    margin-bottom: 40px;
+}
