@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="kopje">Museum online </h1>
+    <p id="mkBlauw">Maak blauw</p>
+    <p id="mkGroen">Maak groen</p>
+    <p id="mkRood">Maak rood</p>
+
+    <script type="text/javascript">
+        const kopje = document.getElementById("kopje");
+        const mkBlauw = document.getElementById("mkBlauw");
+        const mkGroen = document.getElementById("mkGroen");
+        const mkRood = document.getElementById("mkRood");
+
+        kopje.style.backgroundColor = "red";
+
+        kopje.addEventListener("click",voeruitKopje);
+        mkBlauw.addEventListener("click",voeruitBlauw);
+        mkGroen.addEventListener("click",voeruitGroen);
+        mkRood.addEventListener("click",voeruitRood);
+
+        function voeruitKopje(){
+            kopje.style.backgroundColor = "yellow";
+            kopje.style.color = "green";
+        }
+
+        function voeruitBlauw(){
+            document.body.style.background = "cyan";
+        }
+
+        function voeruitGroen(){
+            document.body.style.background = "lime";
+        }
+
+        function voeruitRood(){
+            document.body.style.background = "darkred";
+        }
+    </script>
+</body>
+</html>
