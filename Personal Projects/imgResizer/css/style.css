@@ -1,0 +1,9 @@
+body{
+    background-color: #583a6b;
+}
+
+#title {
+    color:"white";
+    font-size:50px;
+    font-family:'Segoe UI', Verdana, sans-serif;
+}
