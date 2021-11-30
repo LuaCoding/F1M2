@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My javascript adventures!</h1>
+    <img id="foto" src="https://placekitten.com/700/500">
+    <br>
+    <button id="leftButton" onclick="mkPrevPic(this)">Previous picture</button>
+    <button id="rightButton" onclick="mkNextPic(this)">Next picture</button>
+
+    <script type="text/javascript">
+        const foto = document.getElementById("foto");
+
+        foto.style.border = "10px solid";
+
+        function mkNextPic(id){
+            console.log("nextfoto");
+            const width = foto.width + 1;
+            const height = foto.height + 1;
+
+            foto.src = ("https://placekitten.com/" + width + "/" + height)
+        }
+
+        function mkPrevPic(id){
+            console.log("prevfoto");
+            const width = foto.width - 1;
+            const height = foto.height - 1;
+
+            foto.src = ("https://placekitten.com/" + width + "/" + height);
+        }
+    </script>
+</body>
+</html>
