@@ -8,21 +8,40 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="title">My javascript adventures!</h1>
+    <h1 id="title">My javascript adventures</h1>
     <img id="foto" src="https://placekitten.com/700/500">
     <br>
     <button id="leftButton" onclick="mkPrevPic(this)">Previous picture</button>
     <button id="rightButton" onclick="mkNextPic(this)">Next picture</button>
+    <button id="dayMode" onclick="lightMode(this)">Light Mode</button>
+    <button id="nightMode" onclick="darkMode(this)">Dark Mode</button>
+    <p id="sizetext"></p>
+    <p id="warn">You can't spam the buttons, the images are loaded in externally from placekitten.com</p>
 
     <script type="text/javascript">
+        const titel = document.getElementById("title");
         const foto = document.getElementById("foto");
-
+        const sizeTxt = document.getElementById("sizetext");
         foto.style.border = "10px solid";
 
+        sizeTxt.textContent = ("" + foto.width + "x" + foto.height)
+
+        function darkMode(id){
+            foto.style.borderColor = "#ffffff";
+            titel.style.color = "#ffffff";
+            document.body.style.backgroundColor = "#000000";
+        }
+
+        function lightMode(id){
+            foto.style.borderColor = "#000000";
+            titel.style.color = "#000000";
+            document.body.style.backgroundColor = "#ffffff";
+        }
+
         function mkNextPic(id){
-            console.log("nextfoto");
             const width = foto.width + 1;
             const height = foto.height + 1;
+            sizeTxt.textContent = ("" + width + "x" + height)
 
             foto.src = ("https://placekitten.com/" + width + "/" + height)
         }
@@ -31,6 +50,7 @@
             console.log("prevfoto");
             const width = foto.width - 1;
             const height = foto.height - 1;
+            sizeTxt.textContent = ("" + width + "x" + height)
 
             foto.src = ("https://placekitten.com/" + width + "/" + height);
         }
