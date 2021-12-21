@@ -1,9 +1,11 @@
 body{
-    background-color: aliceblue;
+    background-color: darkslateblue;
+    color:rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #container{
-    background-color:aqua;
+    background-color:blueviolet; 
     width:700px;
     margin:auto;
 }
