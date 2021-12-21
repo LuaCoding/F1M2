@@ -1,10 +1,13 @@
 # My javascript adventures
 
-### I've always neglected studying javascript because it involves a lot of front-end development. However, I do actually enjoy the freedom you have when developing in Javascript. The possibilities are endless.
+## I've always neglected studying javascript because it involves a lot of front-end development. However, I do actually enjoy the freedom you have when developing in Javascript. The possibilities are endless.
 
-### Here's a list of things I've learned from studying Javascript.
+### Here's a list of things I've learned from studying Javascript:
 
 * Creating elements
 * The HTML hierarchy and children system
 * Appending
-* Functions and manipulating elements
+* Functions
+* Manipulating elements 
+
+#### While I still strongly prefer LuaU, Python and C#, I do enjoy these Javascript classes quite a lot.    
