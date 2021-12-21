@@ -26,19 +26,19 @@
 
         sizeTxt.textContent = ("" + foto.width + "x" + foto.height)
 
-        function darkMode(id){
+        function darkMode(){
             foto.style.borderColor = "#ffffff";
             titel.style.color = "#ffffff";
             document.body.style.backgroundColor = "#000000";
         }
 
-        function lightMode(id){
+        function lightMode(){
             foto.style.borderColor = "#000000";
             titel.style.color = "#000000";
             document.body.style.backgroundColor = "#ffffff";
         }
 
-        function mkNextPic(id){
+        function mkNextPic(){
             const width = foto.width + 1;
             const height = foto.height + 1;
             sizeTxt.textContent = ("" + width + "x" + height)
@@ -46,7 +46,7 @@
             foto.src = ("https://placekitten.com/" + width + "/" + height)
         }
 
-        function mkPrevPic(id){
+        function mkPrevPic(){
             console.log("prevfoto");
             const width = foto.width - 1;
             const height = foto.height - 1;
