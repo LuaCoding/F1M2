@@ -1,0 +1,42 @@
+body{
+    background-color:darkslateblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#koelkast{
+    background-color:white;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    padding:10px;
+}
+
+section{
+    border:2px solid black;
+    padding:10px;
+    min-height:200px;
+}
+
+h1{
+    color:lightblue;
+}
+
+h2{
+    margin: 0 0 10px 0; /* onthoud, het is: top right bottom left ! */
+}
+
+button{
+    padding:10px 20px;
+    background-color:lightblue;
+    color:navy; /* pom button :D */
+    font-size:18px;
+    border:2px solid black;
+}
+
+#groenteHdr{
+    color:green;
+}
+
+#fruitHdr{
+    color:red;
+}
