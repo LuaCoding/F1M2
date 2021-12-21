@@ -10,3 +10,11 @@ function zetInFruitLa(fruit){
     nieuwElement.innerHTML = fruit;
     fruitvak.appendChild(nieuwElement);
 }
+
+function zetInGroenteLa(groente){
+    console.log(groente);
+
+    const nieuwElement = document.createElement("h2");
+    nieuwElement.innerHTML = groente;
+    groentevak.appendChild(nieuwElement);
+}
