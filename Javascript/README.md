@@ -1,13 +1,15 @@
 # My javascript adventures
 
+### Website links:
+
 * [les01](http://28641.hosts1.ma-cloud.nl/les01/)
 * [les02](http://28641.hosts1.ma-cloud.nl/les02/)
 * [les03](http://28641.hosts1.ma-cloud.nl/les03/)
 * [les04](http://28641.hosts1.ma-cloud.nl/les04/)
 
-## I've always neglected studying javascript because it involves a lot of front-end development. However, I do actually enjoy the freedom you have when developing in Javascript. The possibilities are endless.
+#### I've always neglected studying javascript because it involves a lot of front-end development. However, I do actually enjoy the freedom you have when developing in Javascript. The possibilities are endless.
 
-### Here's a list of things I've learned from studying Javascript:
+### Things I've learned while studying Javascript:
 
 * Creating elements
 * The HTML hierarchy and children system
