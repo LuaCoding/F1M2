@@ -42,3 +42,8 @@ img{
 p{
     margin-bottom: 40px;
 }
+
+audio{
+    display:block;
+    margin-top:20px;
+}

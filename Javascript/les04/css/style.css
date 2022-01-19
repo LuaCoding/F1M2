@@ -1,26 +1,6 @@
-body{
-    background-color: white;
-}
-
-#title {
-    color:"white";
-    font-size:50px;
-    font-family:'Segoe UI', Verdana, sans-serif;
-}
-
-#warn{
-    color:red;
-    font-size:20px;
-    font-family:'Segoe UI', Verdana, sans-serif;
-    font-style:italic;
-}
-
-#dayMode{
-    margin-left: 15%;
-}
-
-#sizetext{
-    color:green;
-    font-size:20px;
-    font-family:'Segoe UI', Verdana, sans-serif;
+#container{
+    background-color:gray;
+    width:700px;
+    height:500px;
+    margin:100px auto auto auto;
 }
