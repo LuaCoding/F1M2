@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:"Aller";
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 250%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+article{
+    width: 60vw;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+figure{
+    margin-bottom: 40px;
+}
+
+figcaption{
+    font-size: 80%;
+    font-style: italic;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+audio{
+    display:block;
+    margin-top:20px;
+}
+
+video{
+    width:100%;
+    margin-bottom:40px;
+    border-radius:5px;
+}
